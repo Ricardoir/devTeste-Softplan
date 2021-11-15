@@ -1,0 +1,2 @@
+insert into Pessoa (nome, sexo, email, data_nascimento, naturalidade, nacionalidade, cpf, data_cadastro, data_atualizacao)
+values ('Sandro', 'M', 'sandro@sandro.com.br', CURRENT_DATE, 'SP', 'Brasileiro', '64249681050', CURRENT_TIMESTAMP, null );
