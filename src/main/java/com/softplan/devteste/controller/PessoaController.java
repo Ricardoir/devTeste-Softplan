@@ -53,8 +53,7 @@ public class PessoaController {
 
 	@GetMapping(value = "/source")
 	public ResponseEntity<String> source() {
-		// todo: acessivel sem autenticação
-		return ok("Retornar link projeto github");
+		return ok("https://github.com/Ricardoir/devTeste-Softplan/tree/master");
 
 	}
 
